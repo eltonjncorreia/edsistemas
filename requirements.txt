@@ -1,0 +1,3 @@
+-r requirements-dev.txts
+gunicorn
+pyscopg2==2.7.3
