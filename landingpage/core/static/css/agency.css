@@ -4,7 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 body {
-  overflow-x: hidden;
+  /*overflow-x: hidden;*/
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -139,7 +139,7 @@ img::-moz-selection {
   color: #fed136;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 576px) {
   #mainNav {
     padding-top: 25px;
     padding-bottom: 25px;
@@ -165,7 +165,7 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
-    padding: 12px 0;
+    /*padding: 12px 0;*/
   }
 }
 
@@ -183,7 +183,7 @@ header.masthead {
 }
 
 header.masthead .intro-text {
-  padding-top: 150px;
+  padding-top: 50px;
   padding-bottom: 100px;
 }
 
@@ -203,9 +203,9 @@ header.masthead .intro-text .intro-heading {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
   header.masthead .intro-text {
-    padding-top: 300px;
+    padding-top: 100px;
     padding-bottom: 200px;
   }
   header.masthead .intro-text .intro-lead-in {
@@ -301,7 +301,7 @@ header.masthead .intro-text .intro-heading {
   z-index: 2;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 576px) {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
   }
@@ -533,7 +533,7 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 576px) {
   .timeline > li {
     min-height: 150px;
   }
